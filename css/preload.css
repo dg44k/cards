@@ -1,0 +1,17 @@
+@import url(../css/reset.css);
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+.preload {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  stroke-dasharray: 50 10;
+  transform: rotate(-90deg);
+  transition: 0.3s;
+}

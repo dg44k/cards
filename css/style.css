@@ -1,0 +1,62 @@
+@import url(../css/reset.css);
+
+html {
+  font-size: 65.5%;
+}
+
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.button-basket {
+  align-self: flex-end;
+  margin-right: 15px;
+}
+
+.product {
+  font-size: 2.3rem;
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 0;
+  gap: 5px;
+  padding: 5px;
+  border: #ccc 1px solid;
+}
+
+.product > h3 {
+  font-weight: bold;
+}
+
+.product > p {
+  font-size: 2rem;
+}
+
+.parent-price {
+  display: flex;
+  gap: 5px;
+}
+
+.image-product {
+  width: 20rem;
+}
+
+button {
+  color: #fff;
+  border-radius: 8px;
+  padding: 10px 25px;
+  border: none;
+  margin-top: 15px;
+  cursor: pointer;
+}

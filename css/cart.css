@@ -1,0 +1,24 @@
+@import url(../css/reset.css);
+
+.wrapper{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 100px;
+}
+
+.card-in-cart {
+  font-size: 2.3rem;
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 0;
+  gap: 5px;
+  padding: 5px;
+  border: #ccc 1px solid;
+}
+
+.img-cart{
+  width: 15rem;
+}
